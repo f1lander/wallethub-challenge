@@ -10,8 +10,8 @@
 </head>
 <body ng-cloak>
 	<ul class="menu">
-		<li><a href="#/home">view1</a></li>
-		<li><a href="#/home">view2</a></li>
+		<li><a ui-sref="home({param1: 'home2', param2:2})">view2</a></li>
+		<li><a ui-sref="home({param1: 'home3', param2:null})">view3</a></li>
 	</ul>
 
 	<div ui-view>

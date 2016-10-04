@@ -21,10 +21,10 @@ define([
 
 		$stateProvider
 			.state('home', {
-				url: '/home',
+				url: '/home/:param1&param2',
 				params:{
-					state:null,
-					
+					param1:null,
+					param2:null
 				},
 				controller: 'HomeCtrl as vm',
 				templateUrl:'views/home.html'
